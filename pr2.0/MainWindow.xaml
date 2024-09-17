@@ -1,0 +1,26 @@
+﻿<Window x:Class="pr2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr2._0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel>
+                <TextBlock> Введите значения:</TextBlock>
+                <TextBlock> R =  <TextBox Name="ra" Width="220" Height="16" ></TextBox></TextBlock>
+                <TextBlock> Площадь сферы:</TextBlock>
+                <TextBlock> S = <TextBox Name="sa" Width="220" Height="16"  ></TextBox></TextBlock>
+                <TextBlock> Объем сферы:</TextBlock>
+                <TextBlock> V = <TextBox Name="va" Width="220" Height="16" ></TextBox> <Button Content="Решить" Width="65" Height="21" Click="Button_Click"></Button></TextBlock>
+
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
